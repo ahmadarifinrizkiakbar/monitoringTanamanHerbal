@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .article-image {
+        width: 50%; /* Untuk layar kecil, pastikan gambar tidak melebihi lebar kontainer */
+    }
+}

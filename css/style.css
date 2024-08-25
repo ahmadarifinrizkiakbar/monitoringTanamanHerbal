@@ -1,0 +1,172 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+ /* Custom CSS for Navbar */
+ .navbar {
+    background-color: #0056b3; /* Warna biru gelap untuk navbar */
+    border-bottom: 3px solid #004494; /* Garis bawah navbar dengan warna biru lebih gelap */
+    padding: 10px 20px; /* Padding untuk menyesuaikan ukuran */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan navbar */
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d0d0d0 !important;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #004494;
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #004494;
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://img.icons8.com/material-outlined/24/ffffff/menu.png');
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('https://img.icons8.com/material-outlined/24/ffffff/menu.png');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-fluid {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.article-image {
+    max-width: 50%; /* Atur ukuran maksimum gambar untuk mengikuti lebar kontainer */
+    height: 50%;    /* Pertahankan proporsi asli gambar */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    border-radius: 8px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.data-box {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+}
+
+.data-box p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+
+.data-box h4 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+}
+
+.data-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.unit {
+    margin-left: 5px;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+canvas {
+    width: 100% !important;
+    height: 125px !important; /* Ukuran canvas untuk grafik yang konsisten */
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.col-md-4 {
+    padding: 5px;
+}
+
+.col-md-2 {
+    padding: 5px;
+}
+
+/* Pusatkan label chart */
+.card-header h5 {
+    text-align: center;
+    margin: 0;
+}
+ 
+
+/* Styling for Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
